@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-hyperscript",
+  "version": "1.0.0",
+  "description": "Bootstrap Alpha 4 meets Hyperscript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/index.js -t bubleify -o dist/index.js",
+    "demo": "wzrd example/app.js -- -t [bubleify]"
+  },
+  "keywords": [],
+  "author": "Tom",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "browserify": "^13.0.1",
+    "bubleify": "^0.2.0",
+    "virtual-dom": "^2.1.1",
+    "wzrd": "^1.3.1"
+  }
+}
