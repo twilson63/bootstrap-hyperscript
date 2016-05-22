@@ -10,12 +10,24 @@
   },
   "keywords": [],
   "author": "Tom",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.2",
     "browserify": "^13.0.1",
     "bubleify": "^0.2.0",
     "virtual-dom": "^2.1.1",
     "wzrd": "^1.3.1"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilson63/bootstrap-hyperscript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twilson63/bootstrap-hyperscript/issues"
+  },
+  "homepage": "https://github.com/twilson63/bootstrap-hyperscript#readme"
 }
